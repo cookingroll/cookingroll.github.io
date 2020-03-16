@@ -456,6 +456,27 @@ fieldset[disabled] .btn-default.active {
 }
 
 
+.page_header {
+    background: url(../img/fullImages/header.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 200px 0 150px;
+}
+
+.page_header h2 {
+    margin: 0;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.page_header p {
+    margin: 15px 0;
+    font-size: 24px;
+    font-family: Raleway;
+    color: #fff;
+    opacity: 0.7;
+}
 /* 
    Dropdown menu
    ------------- */
@@ -515,6 +536,11 @@ fieldset[disabled] .btn-default.active {
     display: inline-block;
     height: 0;
     width: 0;
+}
+/* Me */
+.margin-sec{
+    width: 100%;
+    height: 40px;
 }
 
 
@@ -656,6 +682,9 @@ fieldset[disabled] .btn-default.active {
     .navbar .navbar-brand {
         padding: 8px 0px 8px 15px;
     }
+    .shop-single-title{
+        margin-top: 20px;
+    }
 }
 
 
@@ -664,11 +693,7 @@ fieldset[disabled] .btn-default.active {
    ================================================ */
 
 .footer {
-    background: url(../img/bg6.png) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #282828;
 }
 
 .footer .container {
@@ -827,7 +852,7 @@ fieldset[disabled] .btn-default.active {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(../img/bg2.png) no-repeat center center;
+    background: url(../img/bg2.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -846,30 +871,30 @@ fieldset[disabled] .btn-default.active {
 }
 
 .home .tittle-block h1 {
-    color: #ffffff;
-    font-size: 72px;
+    color: #f1c40f;
+    font-size: 40px;
 }
 
 .home .tittle-block h2 {
     text-transform: none;
     font-weight: 400;
     color: #e6e6e6;
-    font-size: 36px;
+    font-size: 26px;
 }
 
 .home .scroll-down {
     position: absolute;
-    bottom: 40px;
+    bottom: 170px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
     .home .tittle-block img {
-        height: 200px;
+        height: 300px;
     }
     .home .tittle-block h1 {
-        font-size: 42px;
+        font-size: 36px;
     }
     .home .tittle-block h2 {
         font-size: 24px;
@@ -906,11 +931,7 @@ fieldset[disabled] .btn-default.active {
    ------- */
 
 .special {
-    background: url(../img/bg3.png) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #282828;
     padding-bottom: 80px;
 }
 
@@ -950,8 +971,11 @@ fieldset[disabled] .btn-default.active {
 }
 
 .special-slider .slider-img {
-    width: 35%;
+    width: 30%;
+    height: 280px;
     float: left;
+    margin-top: 70px;
+    margin-left: 10px;
 }
 
 .special-slider .slider-content {
@@ -1006,7 +1030,7 @@ fieldset[disabled] .btn-default.active {
         width: 45%;
     }
     .special-slider .slider-content {
-        width: 55%;
+        width: 100%;
     }
     .special-slider .slider-content .page-header h1 {
         font-size: 24px;
@@ -1029,210 +1053,11 @@ fieldset[disabled] .btn-default.active {
 }
 
 
-/* 
-   Reservation
-   ----------- */
 
-.reservation {
-    padding-bottom: 80px;
-}
-
-.reservation .reservation-form {
-    border: 1px solid #f3f1ed;
-    padding: 25px 50px;
-}
-
-.reservation-form .form-group {
-    padding: 10px 0px;
-    position: relative;
-}
-
-.reservation-form .form-group .form-control {
-    padding: 0px 50px 0px 15px;
-    font-size: 16px;
-    height: 40px;
-}
-
-.reservation-form .form-group input[type=number]::-webkit-inner-spin-button,
-.reservation-form .form-group input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-.reservation-form .reservation-btn {
-    text-align: center;
-    padding: 20px 0px;
-}
-
-.reservation-form .reservation-btn a {
-    padding: 15px 40px;
-}
-
-.reservation-form i {
-    position: absolute;
-    right: 20px;
-    top: 53px;
-    color: #f28a2f;
-}
-
-.reservation-footer {
-    position: relative;
-    text-align: center;
-    background-color: #fafafa;
-    overflow: visible;
-    padding-top: 20px;
-}
-
-.reservation-footer p {
-    margin-bottom: 20px;
-}
-
-.reservation-footer span {
-    position: relative;
-    bottom: -1px;
-    display: block;
-    width: 100%;
-    height: 5px;
-    text-align: center;
-    background: 0 center repeat-x url("../img/zigzag.svg");
-}
-
-.reservation td .active {
-    background-color: #f9c56a !important;
-}
-
-.help-block {
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: normal;
-}
 
 .top-space {
     margin-top: 15px;
 }
-
-
-/* 
-   Date Picker
-   ----------- */
-
-.datepicker table tr td.active:hover,
-.datepicker table tr td.active:hover:hover,
-.datepicker table tr td.active.disabled:hover,
-.datepicker table tr td.active.disabled:hover:hover,
-.datepicker table tr td.active:focus,
-.datepicker table tr td.active:hover:focus,
-.datepicker table tr td.active.disabled:focus,
-.datepicker table tr td.active.disabled:hover:focus,
-.datepicker table tr td.active:active,
-.datepicker table tr td.active:hover:active,
-.datepicker table tr td.active.disabled:active,
-.datepicker table tr td.active.disabled:hover:active,
-.datepicker table tr td.active.active,
-.datepicker table tr td.active:hover.active,
-.datepicker table tr td.active.disabled.active,
-.datepicker table tr td.active.disabled:hover.active,
-.open .dropdown-toggle.datepicker table tr td.active,
-.open .dropdown-toggle.datepicker table tr td.active:hover,
-.open .dropdown-toggle.datepicker table tr td.active.disabled,
-.open .dropdown-toggle.datepicker table tr td.active.disabled:hover {
-    color: #000;
-    background-color: #f9c56a;
-    border-color: #f9c56a;
-    border-radius: 0px;
-}
-
-.datepicker table tr td span.active:hover,
-.datepicker table tr td span.active:hover:hover,
-.datepicker table tr td span.active.disabled:hover,
-.datepicker table tr td span.active.disabled:hover:hover,
-.datepicker table tr td span.active:focus,
-.datepicker table tr td span.active:hover:focus,
-.datepicker table tr td span.active.disabled:focus,
-.datepicker table tr td span.active.disabled:hover:focus,
-.datepicker table tr td span.active:active,
-.datepicker table tr td span.active:hover:active,
-.datepicker table tr td span.active.disabled:active,
-.datepicker table tr td span.active.disabled:hover:active,
-.datepicker table tr td span.active.active,
-.datepicker table tr td span.active:hover.active,
-.datepicker table tr td span.active.disabled.active,
-.datepicker table tr td span.active.disabled:hover.active,
-.open .dropdown-toggle.datepicker table tr td span.active,
-.open .dropdown-toggle.datepicker table tr td span.active:hover,
-.open .dropdown-toggle.datepicker table tr td span.active.disabled,
-.open .dropdown-toggle.datepicker table tr td span.active.disabled:hover {
-    color: #000;
-    background-color: #f9c56a;
-    border-color: #f9c56a;
-    border-radius: 0px;
-}
-
-.datepicker {
-    font-family: "Josefin Sans", sans-serif;
-}
-
-.datepicker.dropdown-menu {
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: 1px solid rgba(0, 0, 0, .1);
-    margin-top: 0px;
-}
-
-.datepicker.dropdown-menu th,
-.datepicker.datepicker-inline th,
-.datepicker.dropdown-menu td,
-.datepicker.datepicker-inline td {
-    padding: 0 13px;
-}
-
-.datepicker table tr td,
-.datepicker table tr th {
-    border-radius: 0;
-}
-
-.text-primary {
-    color: #000;
-}
-
-
-/* 
-   Clock Picker
-   ------------ */
-
-.clockpicker-tick.active,
-.clockpicker-tick:hover {
-    background-color: #f9c56a;
-    background-color: rgba(249, 197, 106, 0.5);
-}
-
-.clockpicker-canvas-bearing,
-.clockpicker-canvas-fg {
-    stroke: none;
-    fill: #fcb840;
-}
-
-.clockpicker-canvas-bg {
-    stroke: none;
-    fill: #f9c56a;
-}
-
-.clockpicker-canvas-bg-trans {
-    fill: rgba(249, 197, 106, 0.5);
-}
-
-.clockpicker-canvas line {
-    stroke: #f9c56a;
-}
-
-.popover {
-    border-radius: 0px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
 
 /* 
    Features
@@ -1368,7 +1193,6 @@ fieldset[disabled] .btn-default.active {
 .menu .food-menu .menu-item3 h4 {
     text-align: left;
     margin: 5px 0px;
-    float: left;
     padding-right: 10px;
     display: inline;
     background: #fff;
@@ -1401,143 +1225,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 
-/* 
-   Partner Logos
-   ------------- */
 
-.trusted .page-header {
-    margin: 30px 0px 20px;
-}
-
-.trusted .trusted-sponsors {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.trusted .trusted-sponsors a {
-    margin: 0px 10px;
-}
-
-.trusted .trusted-quote {
-    background: url(../img/bg5.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-    padding: 60px 0px 60px;
-}
-
-.trusted-quote .quote-body {
-    color: #ffffff;
-    margin: 20px 0px;
-    font-size: 31px;
-}
-
-.trusted-quote .quote-author {
-    color: #ffffff;
-    margin: 20px 0px;
-    font-size: 26px;
-}
-
-.trusted-quote .quote-author {
-    font-weight: 700;
-}
-
-.trusted-quote .quote-author span {
-    display: inline;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.trusted-quote img {
-    padding-bottom: 20px;
-    margin: 0px auto;
-}
-
-.trusted-slider .slick-dots {
-    bottom: -30px;
-}
-
-.trusted-slider .slick-dots li {
-    position: relative;
-    display: inline-block;
-    width: 11px;
-    height: 11px;
-}
-
-.trusted-slider .slick-dots li button {
-    width: 11px;
-    height: 11px;
-    display: block;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-}
-
-.trusted-slider .slick-dots .slick-active button {
-    background: rgba(255, 255, 255, 0.85);
-}
-
-.trusted-slider .slick-slide:focus,
-.trusted-slider .slick-slide a {
-    outline: none !important;
-}
-
-
-/* 
-   Subscribe
-   --------- */
-
-.subscribe {
-    padding: 30px 0px;
-    background: #f7f3f4;
-}
-
-.subscribe h1 {
-    font-weight: 300;
-    text-align: left;
-    margin: 0px;
-    float: left;
-    line-height: 45px;
-    font-size: 45px;
-}
-
-.subscribe p {
-    float: left;
-    margin: 5px 0px 0px 40px;
-    line-height: 35px;
-}
-
-.subscribe form {
-    float: right;
-}
-
-.subscribe form .btn .fa {
-    font-size: 34px;
-    padding: 0px 8px;
-    position: relative;
-    top: -2px;
-    left: 2px;
-}
-
-.subscribe input {
-    border: 2px solid #F9C56A !important;
-    background: #FFF none repeat scroll 0% 0%;
-    margin: 0px 20px;
-    width: 263px !important;
-    line-height: 42px;
-    height: 46px;
-}
-
-.subscribe .btn-default {
-    padding: 0 15px;
-    height: 46px;
-    border: 1px solid #f2ba57;
-    -webkit-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
 
 @media (max-width: 1200px) {
     .subscribe h1,
@@ -1568,39 +1256,13 @@ fieldset[disabled] .btn-default.active {
 }
 
 
-/* 
-   Page Header
-   ----------- */
-
-.page_header {
-    background: url(../img/header/1.jpg) no-repeat center top;
-    background-size: cover;
-    padding: 200px 0 150px;
-}
-
-.page_header h2 {
-    margin: 0;
-    font-size: 70px;
-    line-height: 70px;
-    font-weight: 900;
-    color: #fff;
-}
-
-.page_header p {
-    margin: 15px 0;
-    font-size: 24px;
-    font-family: Raleway;
-    color: #fff;
-    opacity: 0.7;
-}
-
 
 /* ================================================
    About
    ================================================ */
 
 .about2 {
-    padding: 97px 0;
+    padding: 20px 0 70px 0;
 }
 
 .about2 h2 {
@@ -1708,46 +1370,6 @@ fieldset[disabled] .btn-default.active {
 }
 
 
-/* 
-   Our Team
-   -------- */
-
-.team {
-    padding-bottom: 100px;
-}
-
-.team-staff {
-    border-bottom: 1px solid #dcdddd;
-    padding-bottom: 30px;
-}
-
-.team-staff h4 {
-    font-size: 16px;
-    margin: 37px 0px 3px;
-}
-
-.team-staff p {
-    color: #0a0a0a;
-    font-size: 18px;
-    margin: 0px;
-}
-
-.team-social {
-    display: table;
-    margin: 20px auto 0;
-    padding: 0;
-}
-
-.team-social li {
-    float: left;
-    list-style: none;
-    margin: 0 8px;
-}
-
-.team-social li a {
-    font-size: 16px;
-    color: #4b4741;
-}
 
 
 /* ================================================
@@ -1913,55 +1535,6 @@ fieldset[disabled] .btn-default.active {
     margin-top: 0px;
 }
 
-
-/* ================================================
-   Contact Form
-   ================================================ */
-
-.contact-form input {
-    height: 50px;
-    font-size: 16px;
-}
-
-.contact-form textarea {
-    min-height: 150px;
-    font-size: 16px;
-}
-
-.contact-content .help-block {
-    text-align: center;
-}
-
-.contact-form .form-group .help-block {
-    text-align: left;
-}
-
-.contact-content h3 {
-    margin-bottom: 20px;
-}
-
-.contact-social a {
-    display: inline-block;
-    background-color: #262526;
-    color: #FFF;
-    padding: 0px;
-    font-size: 20px;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    border-radius: 50%;
-}
-
-.contact-social a:hover {
-    background: #F9C56A;
-    color: #262526;
-}
-
-#map {
-    width: 100%;
-    height: 500px;
-}
 
 
 /* ================================================
@@ -2739,106 +2312,6 @@ article p {
 }
 
 
-/* 
-   Comments
-   -------- */
-
-.comments-area .comment {
-    padding-left: 100px;
-    padding-bottom: 20px;
-    font-family: Josefin Sans;
-}
-
-.comments-area .comment .comment-image {
-    float: left;
-    margin-left: -100px;
-}
-
-.comments-area .comment .comment-image img {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-}
-
-.comments-area .commentlist {
-    padding: 0;
-}
-
-.comments-area .commentlist li {
-    list-style: none;
-}
-
-.comments-area .commentlist > li {
-    list-style: none;
-    border-bottom: 1px solid #e8e8e8;
-    margin-bottom: 30px;
-}
-
-.comments-area .commentlist ul {
-    margin-left: 70px;
-    background: #F7F7F7;
-    padding: 20px;
-    margin-bottom: 50px;
-}
-
-.comments-area .commentlist ul .comment {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: 0;
-}
-
-.comments-area .commentlist ul li {
-    margin-bottom: 25px;
-    border-bottom: 1px solid #E6E6E6;
-    padding-bottom: 25px;
-}
-
-.comments-area .commentlist ul li:last-child {
-    margin-bottom: 0;
-    border-bottom: 0;
-    padding-bottom: 0;
-}
-
-.comments-area .commentlist ul .comment p {
-    margin-bottom: 0;
-}
-
-.comments-area .comment .comment-info {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.comments-area .comment .comment-info a {
-    color: #F9C56A;
-}
-
-.comments-area .comment .comment-info span {
-    float: right;
-    font-size: 14px;
-    color: #999;
-    text-transform: none;
-}
-
-.comments-area .comment p {
-    color: #333;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    margin-bottom: 0;
-}
-
-.comments-area .commentlist {
-    margin-bottom: 60px;
-}
-
-.comments-area h3 {
-    text-align: left;
-    margin: 0 0 35px;
-}
-
 
 /* ================================================
    Shop
@@ -3063,98 +2536,8 @@ article p {
     font-weight: normal;
 }
 
+/*
 
-/* ================================================
-   Cart page
-   ================================================ */
-
-.cart-table {
-    font-size: 16px;
-}
-
-.cart-table thead tr th {
-    background: #000;
-    color: #fff;
-    border: 1px solid #222;
-    text-transform: uppercase;
-    line-height: 40px;
-}
-
-.cart-table thead {
-    border-top: 1px solid #000;
-}
-
-.cart-table tbody tr td a {
-    color: #000;
-    font-weight: 700;
-    font-size: 15px;
-}
-
-.cart-table tbody tr td a:hover {
-    color: #F9C56A;
-}
-
-.cart-table thead tr th,
-.cart-table tbody tr td {
-    vertical-align: middle;
-    text-align: center;
-}
-
-.coupon {
-    text-align: left;
-    padding: 5px 0 10px;
-}
-
-.coupon input {
-    width: 70%;
-    float: left;
-}
-
-.coupon button {
-    color: #ffffff;
-    text-transform: uppercase;
-    background: #848484;
-    height: 34px;
-    padding: 0 15px;
-    border: none;
-    line-height: 34px;
-    width: 30%;
-    font-size: 12px;
-    transition: .4s;
-    font-weight: 700;
-}
-
-.coupon button:hover {
-    background: #F9C56A;
-    transition: .4s;
-    color: #0a0a0a;
-}
-
-.cart-btn {
-    float: right;
-    margin-top: 17px;
-}
-
-.cart-btn button {
-    float: left;
-    margin-left: 5px;
-}
-
-.coupon {
-    width: 260px;
-}
-
-.table thead tr th {
-    border-radius: 0px !important;
-    border: none;
-}
-
-.cart_totals {
-    font-size: 16px;
-}
-
-
-/* 
    Billing
    ------- */
 
@@ -3452,7 +2835,6 @@ article p {
     line-height: 21px;
 }
 
-.comment-meta li a {}
 
 .comment-meta em {
     font-style: normal;
@@ -3604,6 +2986,18 @@ article p {
 /* 
       For Screens less than 767px
       --------------------------- */
+@media (max-width: 991px) {
+        iframe{
+            display: inline-block;
+            width: 100%;
+            margin: auto;
+        }
+
+        .margin-sec{
+            margin-top: 3px;
+        }
+    }
+
 
 @media (max-width: 767px) {
     .reservation .reservation-form .reservation-btn a {
@@ -3891,12 +3285,6 @@ textarea {
     background: #F9C56A;
 }
 
-#OT_searchWrapper select {
-    webkit-appearance: none;
-    -moz-appearance: none;
-    text-indent: 1px;
-    text-overflow: '';
-}
 
 #OT_searchWrapper select::-ms-expand {
     display: none;
