@@ -105,6 +105,10 @@ small {
     text-align: center;
     margin: 10px 0px 15px 0px;
 }
+.btn-modify{
+    color: #fff;
+    margin-top: 20px;
+}
 
 .white {
     color: #ffffff;
@@ -852,7 +856,7 @@ fieldset[disabled] .btn-default.active {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(../img/bg2.webp) no-repeat center center;
+    background: url(../img/bg2.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -864,6 +868,7 @@ fieldset[disabled] .btn-default.active {
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
+    text-align: center;
 }
 
 .home .tittle-block .logo {
@@ -922,6 +927,10 @@ fieldset[disabled] .btn-default.active {
 @media (max-width: 992px) {
     .about .about-photo {
         padding-bottom: 25px;
+    }
+
+    .home .tittle-block img {
+        height: 500px;
     }
 }
 
@@ -1007,6 +1016,9 @@ fieldset[disabled] .btn-default.active {
     margin-bottom: 0px;
 }
 
+.btn_modify{
+    color: #fff;
+}
 .special-slider .slider-content .btn {
     margin: 17px 10px 20px 0px;
     font-weight: 700;
