@@ -898,6 +898,9 @@ fieldset[disabled] .btn-default.active {
     .home .tittle-block h2 {
         font-size: 24px;
     }
+    .page_header{
+        display: none;
+    }
 }
 
 
