@@ -874,27 +874,21 @@ fieldset[disabled] .btn-default.active {
 .home .tittle-block .logo {
     text-align: center;
 }
+.home .tittle-block .btn {
+    text-align: center;
+}
 
 .home .tittle-block h1 {
     color: #f1c40f;
     font-size: 40px;
 }
 
-.home .tittle-block h2 {
-    text-transform: none;
-    font-weight: 400;
-    color: #e6e6e6;
-    font-size: 26px;
-}
 
-.home .scroll-down {
-    position: absolute;
-    bottom: 170px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 @media (max-width: 768px) {
+    .tittle-block{
+        text-align: left;
+    }
     .home .tittle-block img {
         height: 300px;
     }
@@ -3007,6 +3001,9 @@ article p {
 
         .margin-sec{
             margin-top: 3px;
+        }
+        .home .tittle-block img {
+            height: 350px;
         }
     }
 
