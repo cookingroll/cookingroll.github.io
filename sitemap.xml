@@ -8,39 +8,80 @@
 
 
 <url>
-  <loc>http://charamdanang.com/</loc>
-  <lastmod>2020-03-17T15:17:46+00:00</lastmod>
+  <loc>https://charamdanang.com/</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://charamdanang.com/index.html</loc>
-  <lastmod>2020-03-17T15:17:46+00:00</lastmod>
+  <loc>https://charamdanang.com/index.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://charamdanang.com/menu.html</loc>
-  <lastmod>2020-03-17T15:17:46+00:00</lastmod>
+  <loc>https://charamdanang.com/menu.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://charamdanang.com/chagio.html</loc>
-  <lastmod>2020-03-17T15:17:46+00:00</lastmod>
+  <loc>https://charamdanang.com/chagio.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://charamdanang.com/ramcuoncai.html</loc>
-  <lastmod>2020-03-17T15:17:46+00:00</lastmod>
+  <loc>https://charamdanang.com/ramcuoncai.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://charamdanang.com/chagio_order.html</loc>
-  <lastmod>2020-03-17T15:17:46+00:00</lastmod>
+  <loc>https://charamdanang.com/blog.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://charamdanang.com/blogpost/congthuc/cong-thuc-nau-an.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://charamdanang.com/blogpost/meovat/meo-vat-cuoc-song.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://charamdanang.com/blogpost/thoisu/doi-song-xa-hoi.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://charamdanang.com/chagio_order.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://charamdanang.com/ramcuoncai_order.html</loc>
-  <lastmod>2020-03-17T15:17:46+00:00</lastmod>
+  <loc>https://charamdanang.com/ramcuoncai_order.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://charamdanang.com/blogpost/thoisu/cap-nhat-tinh-hinh-covid-31032020.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://charamdanang.com/blogpost/thoisu/virus-danh-dau-cham-dut-cong-san-trung-quoc.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://charamdanang.com/blogpost/congthuc/huong-dan-lam-dua-gop-chua-ngot.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://charamdanang.com/blogpost/thoisu/cap-nhat-tinh-hinh-covid19-30032020.html</loc>
+  <lastmod>2020-03-31T05:30:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 </urlset>
